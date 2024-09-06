@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Example with Bulma</title>
+    <!-- Bulma CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar is-primary">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <h1 class="title is-4 has-text-white">My Blog</h1>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item has-text-white" href="#">Home</a>
+                    <a class="navbar-item has-text-white" href="#">About</a>
+                    <a class="navbar-item has-text-white" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Post Section -->
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <!-- Main Blog Content -->
+                <div class="column is-three-quarters">
+                    <article class="box">
+                        <h2 class="title is-3">How to Create a Web Page with Bulma</h2>
+                        <p class="subtitle is-5">By John Doe | August 30, 2024</p>
+                        <figure class="image is-3by1">
+                            <img src="https://via.placeholder.com/1200x400" alt="Blog Image">
+                        </figure>
+                        <div class="content">
+                            <p>
+                                Bulma is a modern CSS framework based on Flexbox. It provides a variety of components, such as buttons, forms, cards, and layouts, that can be easily used to create responsive websites without writing too much custom CSS.
+                            </p>
+                            <p>
+                                In this post, we will go through the steps of designing a blog post using Bulma. The layout is flexible, responsive, and easy to maintain. You can modify and extend Bulma styles using custom CSS if needed.
+                            </p>
+                            <h3 class="title is-4">Why Use Bulma?</h3>
+                            <p>
+                                Bulma is simple to integrate into projects, and it uses semantic class names, making your code cleaner and more readable. It is also mobile-first, ensuring your website looks good on any device.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="column is-one-quarter">
+                    <aside class="menu">
+                        <p class="menu-label">Recent Posts</p>
+                        <ul class="menu-list">
+                            <li><a href="#">Understanding CSS Grid</a></li>
+                            <li><a href="#">Getting Started with JavaScript</a></li>
+                            <li><a href="#">Introduction to React</a></li>
+                            <li><a href="#">A Guide to Web Accessibility</a></li>
+                        </ul>
+                        <p class="menu-label">Categories</p>
+                        <ul class="menu-list">
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">CSS</a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>My Blog</strong> by <a href="#">John Doe</a>. The content is licensed under <a href="#">Creative Commons</a>.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
